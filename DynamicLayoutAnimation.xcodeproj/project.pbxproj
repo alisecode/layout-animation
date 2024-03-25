@@ -11,6 +11,7 @@
 		31EC1D8C2BB1E820006B0B1D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EC1D8B2BB1E820006B0B1D /* ContentView.swift */; };
 		31EC1D8E2BB1E823006B0B1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31EC1D8D2BB1E823006B0B1D /* Assets.xcassets */; };
 		31EC1D912BB1E823006B0B1D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31EC1D902BB1E823006B0B1D /* Preview Assets.xcassets */; };
+		31EC1D982BB1E85C006B0B1D /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EC1D972BB1E85C006B0B1D /* AnimationView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		31EC1D8B2BB1E820006B0B1D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		31EC1D8D2BB1E823006B0B1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31EC1D902BB1E823006B0B1D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		31EC1D972BB1E85C006B0B1D /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				31EC1D892BB1E820006B0B1D /* DynamicLayoutAnimationApp.swift */,
 				31EC1D8B2BB1E820006B0B1D /* ContentView.swift */,
+				31EC1D972BB1E85C006B0B1D /* AnimationView.swift */,
 				31EC1D8D2BB1E823006B0B1D /* Assets.xcassets */,
 				31EC1D8F2BB1E823006B0B1D /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				31EC1D982BB1E85C006B0B1D /* AnimationView.swift in Sources */,
 				31EC1D8C2BB1E820006B0B1D /* ContentView.swift in Sources */,
 				31EC1D8A2BB1E820006B0B1D /* DynamicLayoutAnimationApp.swift in Sources */,
 			);
@@ -279,6 +283,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,6 +312,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

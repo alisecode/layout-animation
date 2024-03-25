@@ -2,7 +2,7 @@
 //  DynamicLayoutAnimationApp.swift
 //  DynamicLayoutAnimation
 //
-//  Created by Алиса Третьякова on 25.03.2024.
+//  Created by Alisa Serhiienko on 25.03.2024.
 //
 
 import SwiftUI
